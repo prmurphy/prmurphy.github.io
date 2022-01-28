@@ -31,9 +31,6 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {% for post in site.posts %}
-          <img src="{% post.feature_img %}" />
-        {% endfor %}
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
