@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Javascript Game Inventory System"
+featured_img: /assets/invsystem.PNG
 ---
 
 I finished up the Harvard CS-50 class in July of 2020. Overall I would say it was a great indroductory class to the study of computer science. For the final project 
