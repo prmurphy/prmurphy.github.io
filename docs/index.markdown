@@ -3,7 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+---
+
+layout: home
 {% for post in site.posts %}
   <img src="{% post.feature_img %}" />
 {% endfor %}
----
