@@ -9,7 +9,7 @@ An Arduino sequencer with a few components to make a digital sequencer. Ill be w
 Fayetteville Public Library's "From Maker to Markey" micro-entreprenuership program to create a 
 DIY audio synth kit. Checkout the youtibe links below to see it in action (Code coming soon).
 
-![image tooltip here](/assets/ArduinoSequencer.png)
+
 
 [Acting as a sequencer][jekyll-docs]
 
