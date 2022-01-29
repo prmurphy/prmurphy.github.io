@@ -5,11 +5,11 @@ layout: default
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
+	
   {%- endif -%}
 
   {{ content }}
-
-
+	
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
@@ -29,11 +29,17 @@ layout: default
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
-          </a>
-        </h3>
+          </a>		
+          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">		  
+        </h3>		  
+		  
+		  
+		  
+
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+		
       </li>
       {%- endfor -%}
     </ul>
