@@ -50,8 +50,7 @@ minima:
 # - about.md
 
 # Build settings
-remote_theme: pages-themes/slate@v0.2.0
-
+theme: jekyll
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
