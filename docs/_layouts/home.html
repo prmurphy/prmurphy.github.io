@@ -31,16 +31,11 @@ layout: default
             {{ post.title | escape }}
           </a>		
           <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">		  
-        </h3>		  
-		  
-		  
-		  
-
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-		
+        </h3>	
       </li>
+      {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+       {%- endif -%}
       {%- endfor -%}
     </ul>
 
