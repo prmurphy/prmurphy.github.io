@@ -50,7 +50,7 @@ minima:
 # - about.md
 
 # Build settings
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-slate
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
