@@ -32,10 +32,10 @@ layout: default
           </a>		
           <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">		  
         </h3>	
-      </li>
-      {%- if site.show_excerpts -%}
+        {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-       {%- endif -%}
+        {%- endif -%}
+      </li>      
       {%- endfor -%}
     </ul>
 
