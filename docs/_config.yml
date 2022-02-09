@@ -1,7 +1,5 @@
 title: CS Projects
-author: Patrick R. Murphy
-  name: Patrick R. Murphy
-  email: prmurphy27@gmail.com
+
 description: > # this means to ignore newlines until "show_excerpts:"
   A small collection of personal projects.
 show_excerpts: true # set to true to show excerpts on the homepage
